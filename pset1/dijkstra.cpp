@@ -172,7 +172,7 @@ int main()
 		PII n = Q.top();
 		int i =  n.first;
 		int wCurr = n.second;
-		for(int j=0, size=sz(g[i]); j < size; j++)z
+		for(int j=0, size=sz(g[i]); j < size; j++)
 		{
 			int v = g[i][j].first;
 			if(g.isVisited(v) == false)
